@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+    font-size: 80px;
+    width: auto;
+}
+
+#btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 10px 20px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(105, 145, 219);
+    outline: none;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(65, 129, 247);
+}
